@@ -59,26 +59,5 @@ namespace AutoEcole
         {
             
         }
-
-        private void guna2ImageButton1_Click(object sender, EventArgs e)
-        {
-               NavUser.Visible = true;
-
-        }
-
-        private void NavUser_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void Dashboard_Load(object sender, EventArgs e)
-        {
-                NavUser.Visible = false;
-        }
-
-        private void gunaAdvenceButton5_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
     }
 }
