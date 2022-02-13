@@ -10,23 +10,11 @@ using System.Windows.Forms;
 
 namespace AutoEcole
 {
-    public partial class AM_Participant : Form
+    public partial class List_Participant : Form
     {
-        public AM_Participant()
+        public List_Participant()
         {
             InitializeComponent();
         }
-
-        private void label6_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void guna2PictureBox1_Click(object sender, EventArgs e)
-        {
-            Close();
-        }
-
-
     }
 }

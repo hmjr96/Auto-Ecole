@@ -78,7 +78,7 @@ namespace AutoEcole
 
         private void gunaAdvenceButton5_Click(object sender, EventArgs e)
         {
-            Close();
+            
         }
 
         private void gunaPanel1_Paint(object sender, PaintEventArgs e)
