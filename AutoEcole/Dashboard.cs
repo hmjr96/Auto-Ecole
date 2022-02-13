@@ -80,5 +80,10 @@ namespace AutoEcole
         {
             Close();
         }
+
+        private void gunaPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
