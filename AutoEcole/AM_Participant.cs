@@ -26,7 +26,5 @@ namespace AutoEcole
         {
             Close();
         }
-
-
     }
 }

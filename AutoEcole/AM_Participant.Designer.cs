@@ -54,11 +54,11 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Poppins Medium", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonShadow;
             this.label2.Location = new System.Drawing.Point(89, 107);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(30, 13);
+            this.label2.Size = new System.Drawing.Size(37, 19);
             this.label2.TabIndex = 9;
             this.label2.Text = "nom";
             // 
@@ -67,7 +67,7 @@
             this.gunaLineTextBox2.BackColor = System.Drawing.SystemColors.Control;
             this.gunaLineTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaLineTextBox2.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(27)))), ((int)(((byte)(35)))));
-            this.gunaLineTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLineTextBox2.Font = new System.Drawing.Font("Poppins Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLineTextBox2.LineColor = System.Drawing.Color.Gainsboro;
             this.gunaLineTextBox2.Location = new System.Drawing.Point(89, 132);
             this.gunaLineTextBox2.Name = "gunaLineTextBox2";
@@ -80,11 +80,11 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Poppins Medium", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonShadow;
             this.label1.Location = new System.Drawing.Point(89, 38);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 13);
+            this.label1.Size = new System.Drawing.Size(58, 19);
             this.label1.TabIndex = 7;
             this.label1.Text = "numero";
             // 
@@ -93,7 +93,7 @@
             this.gunaLineTextBox1.BackColor = System.Drawing.SystemColors.Control;
             this.gunaLineTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaLineTextBox1.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(27)))), ((int)(((byte)(35)))));
-            this.gunaLineTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLineTextBox1.Font = new System.Drawing.Font("Poppins Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLineTextBox1.LineColor = System.Drawing.Color.Gainsboro;
             this.gunaLineTextBox1.Location = new System.Drawing.Point(89, 63);
             this.gunaLineTextBox1.Name = "gunaLineTextBox1";
@@ -106,11 +106,11 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Font = new System.Drawing.Font("Poppins Medium", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonShadow;
             this.label3.Location = new System.Drawing.Point(89, 245);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(42, 13);
+            this.label3.Size = new System.Drawing.Size(49, 19);
             this.label3.TabIndex = 13;
             this.label3.Text = "phone";
             // 
@@ -119,7 +119,7 @@
             this.gunaLineTextBox3.BackColor = System.Drawing.SystemColors.Control;
             this.gunaLineTextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaLineTextBox3.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(27)))), ((int)(((byte)(35)))));
-            this.gunaLineTextBox3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLineTextBox3.Font = new System.Drawing.Font("Poppins Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLineTextBox3.LineColor = System.Drawing.Color.Gainsboro;
             this.gunaLineTextBox3.Location = new System.Drawing.Point(89, 270);
             this.gunaLineTextBox3.Name = "gunaLineTextBox3";
@@ -128,16 +128,15 @@
             this.gunaLineTextBox3.Size = new System.Drawing.Size(234, 38);
             this.gunaLineTextBox3.TabIndex = 12;
             this.gunaLineTextBox3.TextOffsetX = 10;
-
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Font = new System.Drawing.Font("Poppins Medium", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ButtonShadow;
             this.label4.Location = new System.Drawing.Point(89, 176);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(28, 13);
+            this.label4.Size = new System.Drawing.Size(32, 19);
             this.label4.TabIndex = 11;
             this.label4.Text = "CIN";
             // 
@@ -146,7 +145,7 @@
             this.gunaLineTextBox4.BackColor = System.Drawing.SystemColors.Control;
             this.gunaLineTextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaLineTextBox4.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(27)))), ((int)(((byte)(35)))));
-            this.gunaLineTextBox4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLineTextBox4.Font = new System.Drawing.Font("Poppins Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLineTextBox4.LineColor = System.Drawing.Color.Gainsboro;
             this.gunaLineTextBox4.Location = new System.Drawing.Point(89, 201);
             this.gunaLineTextBox4.Name = "gunaLineTextBox4";
@@ -159,11 +158,11 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.Font = new System.Drawing.Font("Poppins Medium", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonShadow;
             this.label6.Location = new System.Drawing.Point(89, 314);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(27, 13);
+            this.label6.Size = new System.Drawing.Size(32, 19);
             this.label6.TabIndex = 15;
             this.label6.Text = "prix";
             this.label6.Click += new System.EventHandler(this.label6_Click);
@@ -173,7 +172,7 @@
             this.gunaLineTextBox6.BackColor = System.Drawing.SystemColors.Control;
             this.gunaLineTextBox6.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaLineTextBox6.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(27)))), ((int)(((byte)(35)))));
-            this.gunaLineTextBox6.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLineTextBox6.Font = new System.Drawing.Font("Poppins Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLineTextBox6.LineColor = System.Drawing.Color.Gainsboro;
             this.gunaLineTextBox6.Location = new System.Drawing.Point(89, 339);
             this.gunaLineTextBox6.Name = "gunaLineTextBox6";
@@ -186,11 +185,11 @@
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Font = new System.Drawing.Font("Poppins Medium", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonShadow;
             this.label5.Location = new System.Drawing.Point(89, 380);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(35, 13);
+            this.label5.Size = new System.Drawing.Size(39, 19);
             this.label5.TabIndex = 16;
             this.label5.Text = "Type";
             // 
@@ -221,7 +220,7 @@
             this.guna2CheckBox2.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2CheckBox2.Location = new System.Drawing.Point(133, 412);
             this.guna2CheckBox2.Name = "guna2CheckBox2";
-            this.guna2CheckBox2.Size = new System.Drawing.Size(33, 17);
+            this.guna2CheckBox2.Size = new System.Drawing.Size(32, 17);
             this.guna2CheckBox2.TabIndex = 18;
             this.guna2CheckBox2.Text = "B";
             this.guna2CheckBox2.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -257,7 +256,7 @@
             this.guna2CheckBox4.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2CheckBox4.Location = new System.Drawing.Point(214, 412);
             this.guna2CheckBox4.Name = "guna2CheckBox4";
-            this.guna2CheckBox4.Size = new System.Drawing.Size(34, 17);
+            this.guna2CheckBox4.Size = new System.Drawing.Size(33, 17);
             this.guna2CheckBox4.TabIndex = 20;
             this.guna2CheckBox4.Text = "D";
             this.guna2CheckBox4.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -275,7 +274,7 @@
             this.guna2CheckBox5.CheckedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.guna2CheckBox5.Location = new System.Drawing.Point(255, 412);
             this.guna2CheckBox5.Name = "guna2CheckBox5";
-            this.guna2CheckBox5.Size = new System.Drawing.Size(33, 17);
+            this.guna2CheckBox5.Size = new System.Drawing.Size(32, 17);
             this.guna2CheckBox5.TabIndex = 21;
             this.guna2CheckBox5.Text = "E";
             this.guna2CheckBox5.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
@@ -308,7 +307,7 @@
             this.guna2Button1.CheckedState.Parent = this.guna2Button1;
             this.guna2Button1.CustomImages.Parent = this.guna2Button1;
             this.guna2Button1.FillColor = System.Drawing.Color.Green;
-            this.guna2Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.guna2Button1.Font = new System.Drawing.Font("Poppins", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
             this.guna2Button1.Location = new System.Drawing.Point(144, 464);
