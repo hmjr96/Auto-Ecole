@@ -8,6 +8,7 @@ namespace AutoEcole
 {
     static class Program
     {
+        public static autoEcoleEntities autoEcole = new autoEcoleEntities();
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
@@ -18,5 +19,7 @@ namespace AutoEcole
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new Login());
         }
+
+        
     }
 }

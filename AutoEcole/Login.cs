@@ -34,10 +34,21 @@ namespace AutoEcole
 
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void Btn_login_Click(object sender, EventArgs e)
         {
-            Dashboard d = new Dashboard();
-            d.Show();
+            var user = (from i in Program.autoEcole.users
+                        where i.username == txt_user.Text && i.password_ == txt_password.Text
+                        select i).ToList();
+            if (user.Count == 0)
+            {
+                MessageBox.Show("user name or password uncorrect!");
+            }
+            else
+            {
+                this.Enabled = false;
+                Form form = new Dashboard();
+                form.Show();
+            }
         }
     }
 }
