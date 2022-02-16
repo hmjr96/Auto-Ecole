@@ -42,8 +42,6 @@ C:\Users\MOUNIB Marouane\Documents\GitHub\Auto-Ecole\AutoEcole\obj\Debug\AutoEco
 C:\Users\MOUNIB Marouane\Documents\GitHub\Auto-Ecole\AutoEcole\obj\Debug\AutoEcole.AM_Participant.resources
 C:\Users\MOUNIB Marouane\Documents\GitHub\Auto-Ecole\AutoEcole\obj\Debug\AutoEcole.Dashboard.resources
 C:\Users\MOUNIB Marouane\Documents\GitHub\Auto-Ecole\AutoEcole\obj\Debug\AutoEcole.Login.resources
-C:\Users\MOUNIB Marouane\Documents\GitHub\Auto-Ecole\AutoEcole\obj\Debug\AutoEcole.paiement.resources
-C:\Users\MOUNIB Marouane\Documents\GitHub\Auto-Ecole\AutoEcole\obj\Debug\AutoEcole.participant.resources
 C:\Users\MOUNIB Marouane\Documents\GitHub\Auto-Ecole\AutoEcole\obj\Debug\AutoEcole.Properties.Resources.resources
 C:\Users\MOUNIB Marouane\Documents\GitHub\Auto-Ecole\AutoEcole\obj\Debug\AutoEcole.csproj.GenerateResource.cache
 C:\Users\MOUNIB Marouane\Documents\GitHub\Auto-Ecole\AutoEcole\obj\Debug\AutoEcole.csproj.CoreCompileInputs.cache
