@@ -50,3 +50,5 @@ C:\Users\MOUNIB Marouane\Documents\GitHub\Auto-Ecole\AutoEcole\obj\Debug\AutoEco
 C:\Users\MOUNIB Marouane\Documents\GitHub\Auto-Ecole\AutoEcole\obj\Debug\AutoEcole.csproj.CopyComplete
 C:\Users\MOUNIB Marouane\Documents\GitHub\Auto-Ecole\AutoEcole\obj\Debug\AutoEcole.exe
 C:\Users\MOUNIB Marouane\Documents\GitHub\Auto-Ecole\AutoEcole\obj\Debug\AutoEcole.pdb
+C:\Users\MOUNIB Marouane\Documents\GitHub\Auto-Ecole\AutoEcole\obj\Debug\AutoEcole.F_List_Paimant.resources
+C:\Users\MOUNIB Marouane\Documents\GitHub\Auto-Ecole\AutoEcole\obj\Debug\AutoEcole.F_List_Participant.resources

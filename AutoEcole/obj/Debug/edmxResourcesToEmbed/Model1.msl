@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="autoEcoleModelStoreContainer" CdmEntityContainer="autoEcoleEntities">
+    <EntitySetMapping Name="Paiements">
+      <EntityTypeMapping TypeName="autoEcoleModel.Paiement">
+        <MappingFragment StoreEntitySet="Paiement">
+          <ScalarProperty Name="numBon" ColumnName="numBon" />
+          <ScalarProperty Name="numP" ColumnName="numP" />
+          <ScalarProperty Name="prixPaye" ColumnName="prixPaye" />
+          <ScalarProperty Name="date_" ColumnName="date_" />
+          <ScalarProperty Name="createAt" ColumnName="createAt" />
+          <ScalarProperty Name="updateAt" ColumnName="updateAt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Participan_typePermi">
+      <EntityTypeMapping TypeName="autoEcoleModel.Participan_typePermi">
+        <MappingFragment StoreEntitySet="Participan_typePermi">
+          <ScalarProperty Name="idParType" ColumnName="idParType" />
+          <ScalarProperty Name="typePermi" ColumnName="typePermi" />
+          <ScalarProperty Name="participant" ColumnName="participant" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Participants">
+      <EntityTypeMapping TypeName="autoEcoleModel.Participant">
+        <MappingFragment StoreEntitySet="Participant">
+          <ScalarProperty Name="numP" ColumnName="numP" />
+          <ScalarProperty Name="nomP" ColumnName="nomP" />
+          <ScalarProperty Name="cin" ColumnName="cin" />
+          <ScalarProperty Name="phone" ColumnName="phone" />
+          <ScalarProperty Name="prix" ColumnName="prix" />
+          <ScalarProperty Name="createAt" ColumnName="createAt" />
+          <ScalarProperty Name="updateAt" ColumnName="updateAt" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="typePermis">
+      <EntityTypeMapping TypeName="autoEcoleModel.typePermi">
+        <MappingFragment StoreEntitySet="typePermi">
+          <ScalarProperty Name="type_permi" ColumnName="type_permi" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="users">
+      <EntityTypeMapping TypeName="autoEcoleModel.user">
+        <MappingFragment StoreEntitySet="users">
+          <ScalarProperty Name="id" ColumnName="id" />
+          <ScalarProperty Name="username" ColumnName="username" />
+          <ScalarProperty Name="password_" ColumnName="password_" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

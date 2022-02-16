@@ -1,0 +1,109 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="autoEcoleModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Paiement">
+    <Key>
+      <PropertyRef Name="numBon" />
+    </Key>
+    <Property Name="numBon" Type="Int32" Nullable="false" />
+    <Property Name="numP" Type="Int32" />
+    <Property Name="prixPaye" Type="Decimal" Precision="10" Scale="2" Nullable="false" />
+    <Property Name="date_" Type="DateTime" Nullable="false" />
+    <Property Name="createAt" Type="DateTime" />
+    <Property Name="updateAt" Type="DateTime" />
+    <NavigationProperty Name="Participant" Relationship="Self.FK__Paiement__numP__300424B4" FromRole="Paiement" ToRole="Participant" />
+  </EntityType>
+  <EntityType Name="Participan_typePermi">
+    <Key>
+      <PropertyRef Name="idParType" />
+    </Key>
+    <Property Name="idParType" Type="Int32" Nullable="false" />
+    <Property Name="typePermi" Type="String" MaxLength="1" FixedLength="true" Unicode="false" />
+    <Property Name="participant" Type="Int32" />
+    <NavigationProperty Name="Participant1" Relationship="Self.FK__Participa__parti__2D27B809" FromRole="Participan_typePermi" ToRole="Participant" />
+    <NavigationProperty Name="typePermi1" Relationship="Self.FK__Participa__typeP__2C3393D0" FromRole="Participan_typePermi" ToRole="typePermi" />
+  </EntityType>
+  <EntityType Name="Participant">
+    <Key>
+      <PropertyRef Name="numP" />
+    </Key>
+    <Property Name="numP" Type="Int32" Nullable="false" />
+    <Property Name="nomP" Type="String" MaxLength="25" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="cin" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="phone" Type="String" MaxLength="10" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="prix" Type="Double" Nullable="false" />
+    <Property Name="createAt" Type="DateTime" />
+    <Property Name="updateAt" Type="DateTime" />
+    <NavigationProperty Name="Paiements" Relationship="Self.FK__Paiement__numP__300424B4" FromRole="Participant" ToRole="Paiement" />
+    <NavigationProperty Name="Participan_typePermi" Relationship="Self.FK__Participa__parti__2D27B809" FromRole="Participant" ToRole="Participan_typePermi" />
+  </EntityType>
+  <EntityType Name="typePermi">
+    <Key>
+      <PropertyRef Name="type_permi" />
+    </Key>
+    <Property Name="type_permi" Type="String" MaxLength="1" FixedLength="true" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Participan_typePermi" Relationship="Self.FK__Participa__typeP__2C3393D0" FromRole="typePermi" ToRole="Participan_typePermi" />
+  </EntityType>
+  <EntityType Name="user">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="username" Type="String" MaxLength="25" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="password_" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__Paiement__numP__300424B4">
+    <End Role="Participant" Type="Self.Participant" Multiplicity="0..1" />
+    <End Role="Paiement" Type="Self.Paiement" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Participant">
+        <PropertyRef Name="numP" />
+      </Principal>
+      <Dependent Role="Paiement">
+        <PropertyRef Name="numP" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Participa__parti__2D27B809">
+    <End Role="Participant" Type="Self.Participant" Multiplicity="0..1" />
+    <End Role="Participan_typePermi" Type="Self.Participan_typePermi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Participant">
+        <PropertyRef Name="numP" />
+      </Principal>
+      <Dependent Role="Participan_typePermi">
+        <PropertyRef Name="participant" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__Participa__typeP__2C3393D0">
+    <End Role="typePermi" Type="Self.typePermi" Multiplicity="0..1" />
+    <End Role="Participan_typePermi" Type="Self.Participan_typePermi" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="typePermi">
+        <PropertyRef Name="type_permi" />
+      </Principal>
+      <Dependent Role="Participan_typePermi">
+        <PropertyRef Name="typePermi" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="autoEcoleEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Paiements" EntityType="Self.Paiement" />
+    <EntitySet Name="Participan_typePermi" EntityType="Self.Participan_typePermi" />
+    <EntitySet Name="Participants" EntityType="Self.Participant" />
+    <EntitySet Name="typePermis" EntityType="Self.typePermi" />
+    <EntitySet Name="users" EntityType="Self.user" />
+    <AssociationSet Name="FK__Paiement__numP__300424B4" Association="Self.FK__Paiement__numP__300424B4">
+      <End Role="Participant" EntitySet="Participants" />
+      <End Role="Paiement" EntitySet="Paiements" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Participa__parti__2D27B809" Association="Self.FK__Participa__parti__2D27B809">
+      <End Role="Participant" EntitySet="Participants" />
+      <End Role="Participan_typePermi" EntitySet="Participan_typePermi" />
+    </AssociationSet>
+    <AssociationSet Name="FK__Participa__typeP__2C3393D0" Association="Self.FK__Participa__typeP__2C3393D0">
+      <End Role="typePermi" EntitySet="typePermis" />
+      <End Role="Participan_typePermi" EntitySet="Participan_typePermi" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
