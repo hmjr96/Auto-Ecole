@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace AutoEcole
 {
-    public partial class paiement : Form
+    public partial class F_List_Participant : Form
     {
-        public paiement()
+        public F_List_Participant()
         {
             InitializeComponent();
-        }
-
-        private void gunaAdvenceButton2_Click(object sender, EventArgs e)
-        {
-            AM_paiment d = new AM_paiment();
-            d.Show();
         }
     }
 }

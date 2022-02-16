@@ -1,6 +1,6 @@
 ﻿namespace AutoEcole
 {
-    partial class paiement
+    partial class F_List_Paimant
     {
         /// <summary>
         /// Required designer variable.
@@ -28,10 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(F_List_Paimant));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(paiement));
+            this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
+            this.guna2DateTimePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
+            this.gunaAdvenceButton2 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
             this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -45,13 +49,84 @@
             this.gunaSeparator2 = new Guna.UI.WinForms.GunaSeparator();
             this.gunaSeparator1 = new Guna.UI.WinForms.GunaSeparator();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
-            this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.guna2DateTimePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
-            this.gunaAdvenceButton2 = new Guna.UI.WinForms.GunaAdvenceButton();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
             this.SuspendLayout();
+            // 
+            // gunaLabel2
+            // 
+            this.gunaLabel2.AutoSize = true;
+            this.gunaLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLabel2.ForeColor = System.Drawing.Color.DimGray;
+            this.gunaLabel2.Location = new System.Drawing.Point(570, 131);
+            this.gunaLabel2.Name = "gunaLabel2";
+            this.gunaLabel2.Size = new System.Drawing.Size(16, 18);
+            this.gunaLabel2.TabIndex = 44;
+            this.gunaLabel2.Text = "a";
+            // 
+            // guna2DateTimePicker2
+            // 
+            this.guna2DateTimePicker2.BorderRadius = 5;
+            this.guna2DateTimePicker2.CheckedState.Parent = this.guna2DateTimePicker2;
+            this.guna2DateTimePicker2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.guna2DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.guna2DateTimePicker2.HoverState.Parent = this.guna2DateTimePicker2;
+            this.guna2DateTimePicker2.Location = new System.Drawing.Point(588, 124);
+            this.guna2DateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.guna2DateTimePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.guna2DateTimePicker2.Name = "guna2DateTimePicker2";
+            this.guna2DateTimePicker2.ShadowDecoration.Parent = this.guna2DateTimePicker2;
+            this.guna2DateTimePicker2.Size = new System.Drawing.Size(181, 36);
+            this.guna2DateTimePicker2.TabIndex = 43;
+            this.guna2DateTimePicker2.Value = new System.DateTime(2022, 2, 7, 20, 59, 16, 801);
+            // 
+            // guna2DateTimePicker1
+            // 
+            this.guna2DateTimePicker1.BorderRadius = 5;
+            this.guna2DateTimePicker1.CheckedState.Parent = this.guna2DateTimePicker1;
+            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
+            this.guna2DateTimePicker1.HoverState.Parent = this.guna2DateTimePicker1;
+            this.guna2DateTimePicker1.Location = new System.Drawing.Point(373, 124);
+            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
+            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
+            this.guna2DateTimePicker1.ShadowDecoration.Parent = this.guna2DateTimePicker1;
+            this.guna2DateTimePicker1.Size = new System.Drawing.Size(195, 36);
+            this.guna2DateTimePicker1.TabIndex = 42;
+            this.guna2DateTimePicker1.Value = new System.DateTime(2022, 2, 7, 20, 59, 16, 801);
+            // 
+            // gunaAdvenceButton2
+            // 
+            this.gunaAdvenceButton2.AnimationHoverSpeed = 0.07F;
+            this.gunaAdvenceButton2.AnimationSpeed = 0.03F;
+            this.gunaAdvenceButton2.BackColor = System.Drawing.Color.Transparent;
+            this.gunaAdvenceButton2.BaseColor = System.Drawing.Color.LimeGreen;
+            this.gunaAdvenceButton2.BorderColor = System.Drawing.Color.Black;
+            this.gunaAdvenceButton2.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.gunaAdvenceButton2.CheckedBorderColor = System.Drawing.Color.Black;
+            this.gunaAdvenceButton2.CheckedForeColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton2.CheckedImage = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton2.CheckedImage")));
+            this.gunaAdvenceButton2.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.gunaAdvenceButton2.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaAdvenceButton2.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaAdvenceButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.gunaAdvenceButton2.ForeColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton2.Image = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton2.Image")));
+            this.gunaAdvenceButton2.ImageSize = new System.Drawing.Size(20, 20);
+            this.gunaAdvenceButton2.LineColor = System.Drawing.Color.LimeGreen;
+            this.gunaAdvenceButton2.Location = new System.Drawing.Point(682, 40);
+            this.gunaAdvenceButton2.Name = "gunaAdvenceButton2";
+            this.gunaAdvenceButton2.OnHoverBaseColor = System.Drawing.Color.ForestGreen;
+            this.gunaAdvenceButton2.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaAdvenceButton2.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaAdvenceButton2.OnHoverImage = null;
+            this.gunaAdvenceButton2.OnHoverLineColor = System.Drawing.Color.ForestGreen;
+            this.gunaAdvenceButton2.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaAdvenceButton2.Radius = 12;
+            this.gunaAdvenceButton2.Size = new System.Drawing.Size(87, 42);
+            this.gunaAdvenceButton2.TabIndex = 41;
+            this.gunaAdvenceButton2.Text = "ADD";
             // 
             // guna2DataGridView1
             // 
@@ -88,12 +163,12 @@
             this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle3;
             this.guna2DataGridView1.EnableHeadersVisualStyles = false;
             this.guna2DataGridView1.GridColor = System.Drawing.SystemColors.Control;
-            this.guna2DataGridView1.Location = new System.Drawing.Point(83, 156);
+            this.guna2DataGridView1.Location = new System.Drawing.Point(90, 175);
             this.guna2DataGridView1.Name = "guna2DataGridView1";
             this.guna2DataGridView1.RowHeadersVisible = false;
             this.guna2DataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.guna2DataGridView1.Size = new System.Drawing.Size(678, 304);
-            this.guna2DataGridView1.TabIndex = 20;
+            this.guna2DataGridView1.TabIndex = 33;
             this.guna2DataGridView1.Theme = Guna.UI2.WinForms.Enums.DataGridViewPresetThemes.Default;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
             this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
@@ -152,10 +227,10 @@
             this.gunaLabel10.AutoSize = true;
             this.gunaLabel10.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLabel10.ForeColor = System.Drawing.Color.DimGray;
-            this.gunaLabel10.Location = new System.Drawing.Point(76, 21);
+            this.gunaLabel10.Location = new System.Drawing.Point(83, 40);
             this.gunaLabel10.Name = "gunaLabel10";
             this.gunaLabel10.Size = new System.Drawing.Size(115, 29);
-            this.gunaLabel10.TabIndex = 28;
+            this.gunaLabel10.TabIndex = 40;
             this.gunaLabel10.Text = "Paiement";
             // 
             // guna2Button2
@@ -166,11 +241,11 @@
             this.guna2Button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button2.ForeColor = System.Drawing.Color.DimGray;
             this.guna2Button2.HoverState.Parent = this.guna2Button2;
-            this.guna2Button2.Location = new System.Drawing.Point(213, 487);
+            this.guna2Button2.Location = new System.Drawing.Point(220, 506);
             this.guna2Button2.Name = "guna2Button2";
             this.guna2Button2.ShadowDecoration.Parent = this.guna2Button2;
             this.guna2Button2.Size = new System.Drawing.Size(49, 45);
-            this.guna2Button2.TabIndex = 27;
+            this.guna2Button2.TabIndex = 39;
             this.guna2Button2.Text = "<";
             // 
             // guna2Button1
@@ -181,114 +256,38 @@
             this.guna2Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.guna2Button1.ForeColor = System.Drawing.Color.DimGray;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(581, 487);
+            this.guna2Button1.Location = new System.Drawing.Point(588, 506);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
             this.guna2Button1.Size = new System.Drawing.Size(49, 45);
-            this.guna2Button1.TabIndex = 26;
+            this.guna2Button1.TabIndex = 38;
             this.guna2Button1.Text = ">";
             // 
             // gunaSeparator2
             // 
             this.gunaSeparator2.LineColor = System.Drawing.Color.Silver;
-            this.gunaSeparator2.Location = new System.Drawing.Point(268, 500);
+            this.gunaSeparator2.Location = new System.Drawing.Point(275, 519);
             this.gunaSeparator2.Name = "gunaSeparator2";
             this.gunaSeparator2.Size = new System.Drawing.Size(147, 10);
-            this.gunaSeparator2.TabIndex = 25;
+            this.gunaSeparator2.TabIndex = 37;
             // 
             // gunaSeparator1
             // 
             this.gunaSeparator1.LineColor = System.Drawing.Color.Silver;
-            this.gunaSeparator1.Location = new System.Drawing.Point(451, 500);
+            this.gunaSeparator1.Location = new System.Drawing.Point(458, 519);
             this.gunaSeparator1.Name = "gunaSeparator1";
             this.gunaSeparator1.Size = new System.Drawing.Size(147, 10);
-            this.gunaSeparator1.TabIndex = 24;
+            this.gunaSeparator1.TabIndex = 36;
             // 
             // gunaLabel1
             // 
             this.gunaLabel1.AutoSize = true;
             this.gunaLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel1.Location = new System.Drawing.Point(421, 487);
+            this.gunaLabel1.Location = new System.Drawing.Point(428, 506);
             this.gunaLabel1.Name = "gunaLabel1";
             this.gunaLabel1.Size = new System.Drawing.Size(24, 25);
-            this.gunaLabel1.TabIndex = 23;
+            this.gunaLabel1.TabIndex = 35;
             this.gunaLabel1.Text = "1";
-            // 
-            // guna2DateTimePicker1
-            // 
-            this.guna2DateTimePicker1.BorderRadius = 5;
-            this.guna2DateTimePicker1.CheckedState.Parent = this.guna2DateTimePicker1;
-            this.guna2DateTimePicker1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.guna2DateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker1.HoverState.Parent = this.guna2DateTimePicker1;
-            this.guna2DateTimePicker1.Location = new System.Drawing.Point(366, 105);
-            this.guna2DateTimePicker1.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.guna2DateTimePicker1.Name = "guna2DateTimePicker1";
-            this.guna2DateTimePicker1.ShadowDecoration.Parent = this.guna2DateTimePicker1;
-            this.guna2DateTimePicker1.Size = new System.Drawing.Size(195, 36);
-            this.guna2DateTimePicker1.TabIndex = 30;
-            this.guna2DateTimePicker1.Value = new System.DateTime(2022, 2, 7, 20, 59, 16, 801);
-            // 
-            // guna2DateTimePicker2
-            // 
-            this.guna2DateTimePicker2.BorderRadius = 5;
-            this.guna2DateTimePicker2.CheckedState.Parent = this.guna2DateTimePicker2;
-            this.guna2DateTimePicker2.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
-            this.guna2DateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Long;
-            this.guna2DateTimePicker2.HoverState.Parent = this.guna2DateTimePicker2;
-            this.guna2DateTimePicker2.Location = new System.Drawing.Point(581, 105);
-            this.guna2DateTimePicker2.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
-            this.guna2DateTimePicker2.MinDate = new System.DateTime(1753, 1, 1, 0, 0, 0, 0);
-            this.guna2DateTimePicker2.Name = "guna2DateTimePicker2";
-            this.guna2DateTimePicker2.ShadowDecoration.Parent = this.guna2DateTimePicker2;
-            this.guna2DateTimePicker2.Size = new System.Drawing.Size(181, 36);
-            this.guna2DateTimePicker2.TabIndex = 31;
-            this.guna2DateTimePicker2.Value = new System.DateTime(2022, 2, 7, 20, 59, 16, 801);
-            // 
-            // gunaLabel2
-            // 
-            this.gunaLabel2.AutoSize = true;
-            this.gunaLabel2.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaLabel2.ForeColor = System.Drawing.Color.DimGray;
-            this.gunaLabel2.Location = new System.Drawing.Point(563, 112);
-            this.gunaLabel2.Name = "gunaLabel2";
-            this.gunaLabel2.Size = new System.Drawing.Size(16, 18);
-            this.gunaLabel2.TabIndex = 32;
-            this.gunaLabel2.Text = "a";
-            // 
-            // gunaAdvenceButton2
-            // 
-            this.gunaAdvenceButton2.AnimationHoverSpeed = 0.07F;
-            this.gunaAdvenceButton2.AnimationSpeed = 0.03F;
-            this.gunaAdvenceButton2.BackColor = System.Drawing.Color.Transparent;
-            this.gunaAdvenceButton2.BaseColor = System.Drawing.Color.LimeGreen;
-            this.gunaAdvenceButton2.BorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton2.CheckedBaseColor = System.Drawing.Color.Gray;
-            this.gunaAdvenceButton2.CheckedBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton2.CheckedForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton2.CheckedImage = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton2.CheckedImage")));
-            this.gunaAdvenceButton2.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.gunaAdvenceButton2.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaAdvenceButton2.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaAdvenceButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaAdvenceButton2.ForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton2.Image = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton2.Image")));
-            this.gunaAdvenceButton2.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaAdvenceButton2.LineColor = System.Drawing.Color.LimeGreen;
-            this.gunaAdvenceButton2.Location = new System.Drawing.Point(675, 21);
-            this.gunaAdvenceButton2.Name = "gunaAdvenceButton2";
-            this.gunaAdvenceButton2.OnHoverBaseColor = System.Drawing.Color.ForestGreen;
-            this.gunaAdvenceButton2.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton2.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton2.OnHoverImage = null;
-            this.gunaAdvenceButton2.OnHoverLineColor = System.Drawing.Color.ForestGreen;
-            this.gunaAdvenceButton2.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton2.Radius = 12;
-            this.gunaAdvenceButton2.Size = new System.Drawing.Size(87, 42);
-            this.gunaAdvenceButton2.TabIndex = 29;
-            this.gunaAdvenceButton2.Text = "ADD";
-            this.gunaAdvenceButton2.Click += new System.EventHandler(this.gunaAdvenceButton2_Click);
             // 
             // guna2TextBox1
             // 
@@ -306,7 +305,7 @@
             this.guna2TextBox1.HoverState.Parent = this.guna2TextBox1;
             this.guna2TextBox1.IconLeft = global::AutoEcole.Properties.Resources.search_48px;
             this.guna2TextBox1.IconRightCursor = System.Windows.Forms.Cursors.Hand;
-            this.guna2TextBox1.Location = new System.Drawing.Point(83, 105);
+            this.guna2TextBox1.Location = new System.Drawing.Point(90, 124);
             this.guna2TextBox1.Name = "guna2TextBox1";
             this.guna2TextBox1.PasswordChar = '\0';
             this.guna2TextBox1.PlaceholderText = "";
@@ -314,13 +313,13 @@
             this.guna2TextBox1.SelectionStart = 6;
             this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
             this.guna2TextBox1.Size = new System.Drawing.Size(277, 36);
-            this.guna2TextBox1.TabIndex = 21;
+            this.guna2TextBox1.TabIndex = 34;
             // 
-            // paiement
+            // F_List_Paimant
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(836, 552);
+            this.ClientSize = new System.Drawing.Size(852, 591);
             this.Controls.Add(this.gunaLabel2);
             this.Controls.Add(this.guna2DateTimePicker2);
             this.Controls.Add(this.guna2DateTimePicker1);
@@ -334,8 +333,8 @@
             this.Controls.Add(this.gunaLabel1);
             this.Controls.Add(this.guna2TextBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "paiement";
-            this.Text = "paiement";
+            this.Name = "F_List_Paimant";
+            this.Text = "F_List_Paimant";
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -344,6 +343,10 @@
 
         #endregion
 
+        private Guna.UI.WinForms.GunaLabel gunaLabel2;
+        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker2;
+        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
+        private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton2;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
@@ -358,9 +361,5 @@
         private Guna.UI.WinForms.GunaSeparator gunaSeparator1;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton2;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
-        private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker2;
-        private Guna.UI.WinForms.GunaLabel gunaLabel2;
     }
 }
