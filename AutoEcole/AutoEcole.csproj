@@ -33,6 +33,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.5.0.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.UI">
       <HintPath>..\..\..\..\Desktop\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna_UI_Framework_Ultimate_v2.0.0.1\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
     </Reference>
@@ -41,7 +44,9 @@
     </Reference>
     <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.Entity" />
     <Reference Include="System.Management" />
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.Security" />
@@ -92,8 +97,38 @@
     <Compile Include="Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
     </Compile>
+    <Compile Include="Model_auto.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model_auto.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model_auto.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model_auto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Model_auto.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Model_auto.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="Paiement.cs">
+      <DependentUpon>Model_auto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Participant.cs">
+      <DependentUpon>Model_auto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Participan_typePermi.cs">
+      <DependentUpon>Model_auto.tt</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="typePermi.cs">
+      <DependentUpon>Model_auto.tt</DependentUpon>
+    </Compile>
+    <Compile Include="user.cs">
+      <DependentUpon>Model_auto.tt</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AM_paiment.resx">
       <DependentUpon>AM_paiment.cs</DependentUpon>
     </EmbeddedResource>
@@ -122,6 +157,14 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EntityDeploy Include="Model_auto.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>Model_auto.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+    <None Include="Model_auto.edmx.diagram">
+      <DependentUpon>Model_auto.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -164,6 +207,18 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Model_auto.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>Model_auto.Context.cs</LastGenOutput>
+      <DependentUpon>Model_auto.edmx</DependentUpon>
+    </Content>
+    <Content Include="Model_auto.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>Model_auto.edmx</DependentUpon>
+      <LastGenOutput>Model_auto.cs</LastGenOutput>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
