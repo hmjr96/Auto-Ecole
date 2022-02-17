@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.28307.1738
+VisualStudioVersion = 15.0.28307.1758
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoEcole", "AutoEcole\AutoEcole.csproj", "{03CD9828-7F96-4F8D-92AA-8B9FED1C7FF6}"
 EndProject
@@ -20,6 +20,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CAC04E50-BAF0-4096-89C0-DBFF003F186F}
+		SolutionGuid = {22A9106E-6C9B-4D72-9BF3-0CDDF8C3B474}
 	EndGlobalSection
 EndGlobal
