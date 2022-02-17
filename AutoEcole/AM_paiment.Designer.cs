@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AM_paiment));
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.Btn_save = new Guna.UI2.WinForms.Guna2Button();
             this.label4 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -42,22 +42,21 @@
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
-            // guna2Button1
+            // Btn_save
             // 
-            this.guna2Button1.BorderRadius = 15;
-            this.guna2Button1.CheckedState.Parent = this.guna2Button1;
-            this.guna2Button1.CustomImages.Parent = this.guna2Button1;
-            this.guna2Button1.FillColor = System.Drawing.Color.Green;
-            this.guna2Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.HoverState.Parent = this.guna2Button1;
-            this.guna2Button1.Location = new System.Drawing.Point(142, 415);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.ShadowDecoration.Parent = this.guna2Button1;
-            this.guna2Button1.Size = new System.Drawing.Size(154, 45);
-            this.guna2Button1.TabIndex = 35;
-            this.guna2Button1.Text = "Submit";
-            this.guna2Button1.Click += new System.EventHandler(this.Guna2Button1_Click);
+            this.Btn_save.BorderRadius = 15;
+            this.Btn_save.CheckedState.Parent = this.Btn_save;
+            this.Btn_save.CustomImages.Parent = this.Btn_save;
+            this.Btn_save.FillColor = System.Drawing.Color.Green;
+            this.Btn_save.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Btn_save.ForeColor = System.Drawing.Color.White;
+            this.Btn_save.HoverState.Parent = this.Btn_save;
+            this.Btn_save.Location = new System.Drawing.Point(142, 415);
+            this.Btn_save.Name = "Btn_save";
+            this.Btn_save.ShadowDecoration.Parent = this.Btn_save;
+            this.Btn_save.Size = new System.Drawing.Size(154, 45);
+            this.Btn_save.TabIndex = 35;
+            this.Btn_save.Click += new System.EventHandler(this.Btn_add_Click);
             // 
             // label4
             // 
@@ -191,7 +190,7 @@
             this.Controls.Add(this.txt_prix);
             this.Controls.Add(this.cmb_participant);
             this.Controls.Add(this.guna2PictureBox1);
-            this.Controls.Add(this.guna2Button1);
+            this.Controls.Add(this.Btn_save);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -209,7 +208,7 @@
         #endregion
 
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
+        private Guna.UI2.WinForms.Guna2Button Btn_save;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;

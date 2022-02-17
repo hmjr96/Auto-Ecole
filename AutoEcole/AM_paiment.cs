@@ -19,6 +19,7 @@ namespace AutoEcole
 
         autoEcoleEntities db = new autoEcoleEntities();
         Paiement model = new Paiement();
+        public string name_button;
 
         private void Label2_Click(object sender, EventArgs e)
         {
@@ -30,15 +31,18 @@ namespace AutoEcole
 
         }
 
-        private void Guna2Button1_Click(object sender, EventArgs e)
+        private void Btn_add_Click(object sender, EventArgs e)
         {
-            model.numBon = int.Parse(txt_numBon.Text);
-            model.numP = int.Parse(cmb_participant.SelectedValue.ToString());
-            model.prixPaye = int.Parse(txt_prix.Text);
-            model.date_ = dtp_date.Value;
-            db.Paiements.Add(model);
-            db.SaveChanges();
-            this.Close();
+            if (Btn_save.Text == "Ajouter")
+            {
+                model.numBon = int.Parse(txt_numBon.Text);
+                model.numP = int.Parse(cmb_participant.SelectedValue.ToString());
+                model.prixPaye = int.Parse(txt_prix.Text);
+                model.date_ = dtp_date.Value;
+                db.Paiements.Add(model);
+                db.SaveChanges();
+                this.Close();
+            }
         }
 
         private void AM_paiment_Load(object sender, EventArgs e)
@@ -46,6 +50,7 @@ namespace AutoEcole
             cmb_participant.DataSource = db.Participants.ToList();
             cmb_participant.ValueMember = "numP";
             cmb_participant.DisplayMember = "nomP";
+            Btn_save.Text = name_button;
         }
     }
 }

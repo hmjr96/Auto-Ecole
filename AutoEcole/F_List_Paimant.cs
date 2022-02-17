@@ -41,6 +41,7 @@ namespace AutoEcole
         private void GunaAdvenceButton2_Click(object sender, EventArgs e)
         {
             AM_paiment frm = new AM_paiment();
+            frm.name_button = "Ajouter";
             frm.Show();
         }
     }
