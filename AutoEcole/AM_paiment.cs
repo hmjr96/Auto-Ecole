@@ -17,19 +17,35 @@ namespace AutoEcole
             InitializeComponent();
         }
 
-        private void label2_Click(object sender, EventArgs e)
+        autoEcoleEntities db = new autoEcoleEntities();
+        Paiement model = new Paiement();
+
+        private void Label2_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void label4_Click(object sender, EventArgs e)
+        private void Label4_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void guna2Button1_Click(object sender, EventArgs e)
+        private void Guna2Button1_Click(object sender, EventArgs e)
         {
+            model.numBon = int.Parse(txt_numBon.Text);
+            model.numP = int.Parse(cmb_participant.SelectedValue.ToString());
+            model.prixPaye = int.Parse(txt_prix.Text);
+            model.date_ = dtp_date.Value;
+            db.Paiements.Add(model);
+            db.SaveChanges();
+            this.Close();
+        }
 
+        private void AM_paiment_Load(object sender, EventArgs e)
+        {
+            cmb_participant.DataSource = db.Participants.ToList();
+            cmb_participant.ValueMember = "numP";
+            cmb_participant.DisplayMember = "nomP";
         }
     }
 }

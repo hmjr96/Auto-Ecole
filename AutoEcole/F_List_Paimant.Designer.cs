@@ -35,7 +35,7 @@
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.guna2DateTimePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.gunaAdvenceButton2 = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.Btn_add = new Guna.UI.WinForms.GunaAdvenceButton();
             this.dgv_paiement = new Guna.UI2.WinForms.Guna2DataGridView();
             this.gunaLabel10 = new Guna.UI.WinForms.GunaLabel();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
@@ -90,37 +90,38 @@
             this.guna2DateTimePicker1.TabIndex = 42;
             this.guna2DateTimePicker1.Value = new System.DateTime(2022, 2, 7, 20, 59, 16, 801);
             // 
-            // gunaAdvenceButton2
+            // Btn_add
             // 
-            this.gunaAdvenceButton2.AnimationHoverSpeed = 0.07F;
-            this.gunaAdvenceButton2.AnimationSpeed = 0.03F;
-            this.gunaAdvenceButton2.BackColor = System.Drawing.Color.Transparent;
-            this.gunaAdvenceButton2.BaseColor = System.Drawing.Color.LimeGreen;
-            this.gunaAdvenceButton2.BorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton2.CheckedBaseColor = System.Drawing.Color.Gray;
-            this.gunaAdvenceButton2.CheckedBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton2.CheckedForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton2.CheckedImage = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton2.CheckedImage")));
-            this.gunaAdvenceButton2.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.gunaAdvenceButton2.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaAdvenceButton2.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaAdvenceButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaAdvenceButton2.ForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton2.Image = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton2.Image")));
-            this.gunaAdvenceButton2.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaAdvenceButton2.LineColor = System.Drawing.Color.LimeGreen;
-            this.gunaAdvenceButton2.Location = new System.Drawing.Point(682, 40);
-            this.gunaAdvenceButton2.Name = "gunaAdvenceButton2";
-            this.gunaAdvenceButton2.OnHoverBaseColor = System.Drawing.Color.ForestGreen;
-            this.gunaAdvenceButton2.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton2.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton2.OnHoverImage = null;
-            this.gunaAdvenceButton2.OnHoverLineColor = System.Drawing.Color.ForestGreen;
-            this.gunaAdvenceButton2.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton2.Radius = 12;
-            this.gunaAdvenceButton2.Size = new System.Drawing.Size(87, 42);
-            this.gunaAdvenceButton2.TabIndex = 41;
-            this.gunaAdvenceButton2.Text = "ADD";
+            this.Btn_add.AnimationHoverSpeed = 0.07F;
+            this.Btn_add.AnimationSpeed = 0.03F;
+            this.Btn_add.BackColor = System.Drawing.Color.Transparent;
+            this.Btn_add.BaseColor = System.Drawing.Color.LimeGreen;
+            this.Btn_add.BorderColor = System.Drawing.Color.Black;
+            this.Btn_add.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.Btn_add.CheckedBorderColor = System.Drawing.Color.Black;
+            this.Btn_add.CheckedForeColor = System.Drawing.Color.White;
+            this.Btn_add.CheckedImage = ((System.Drawing.Image)(resources.GetObject("Btn_add.CheckedImage")));
+            this.Btn_add.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.Btn_add.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.Btn_add.FocusedColor = System.Drawing.Color.Empty;
+            this.Btn_add.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.Btn_add.ForeColor = System.Drawing.Color.White;
+            this.Btn_add.Image = ((System.Drawing.Image)(resources.GetObject("Btn_add.Image")));
+            this.Btn_add.ImageSize = new System.Drawing.Size(20, 20);
+            this.Btn_add.LineColor = System.Drawing.Color.LimeGreen;
+            this.Btn_add.Location = new System.Drawing.Point(682, 40);
+            this.Btn_add.Name = "Btn_add";
+            this.Btn_add.OnHoverBaseColor = System.Drawing.Color.ForestGreen;
+            this.Btn_add.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.Btn_add.OnHoverForeColor = System.Drawing.Color.White;
+            this.Btn_add.OnHoverImage = null;
+            this.Btn_add.OnHoverLineColor = System.Drawing.Color.ForestGreen;
+            this.Btn_add.OnPressedColor = System.Drawing.Color.Black;
+            this.Btn_add.Radius = 12;
+            this.Btn_add.Size = new System.Drawing.Size(87, 42);
+            this.Btn_add.TabIndex = 41;
+            this.Btn_add.Text = "ADD";
+            this.Btn_add.Click += new System.EventHandler(this.GunaAdvenceButton2_Click);
             // 
             // dgv_paiement
             // 
@@ -280,7 +281,7 @@
             this.Controls.Add(this.gunaLabel2);
             this.Controls.Add(this.guna2DateTimePicker2);
             this.Controls.Add(this.guna2DateTimePicker1);
-            this.Controls.Add(this.gunaAdvenceButton2);
+            this.Controls.Add(this.Btn_add);
             this.Controls.Add(this.dgv_paiement);
             this.Controls.Add(this.gunaLabel10);
             this.Controls.Add(this.guna2Button2);
@@ -304,7 +305,7 @@
         private Guna.UI.WinForms.GunaLabel gunaLabel2;
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker2;
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
-        private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton2;
+        private Guna.UI.WinForms.GunaAdvenceButton Btn_add;
         private Guna.UI2.WinForms.Guna2DataGridView dgv_paiement;
         private Guna.UI.WinForms.GunaLabel gunaLabel10;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
