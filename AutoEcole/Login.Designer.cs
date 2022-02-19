@@ -56,7 +56,7 @@
             this.gunaLineTextBox1.BackColor = System.Drawing.SystemColors.Control;
             this.gunaLineTextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaLineTextBox1.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(27)))), ((int)(((byte)(35)))));
-            this.gunaLineTextBox1.Font = new System.Drawing.Font("Poppins Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLineTextBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLineTextBox1.LineColor = System.Drawing.Color.Gainsboro;
             this.gunaLineTextBox1.Location = new System.Drawing.Point(60, 207);
             this.gunaLineTextBox1.Name = "gunaLineTextBox1";
@@ -69,22 +69,22 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Poppins Medium", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonShadow;
             this.label1.Location = new System.Drawing.Point(61, 185);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(130, 19);
+            this.label1.Size = new System.Drawing.Size(112, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "Username or Email";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Poppins Medium", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonShadow;
             this.label2.Location = new System.Drawing.Point(61, 261);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(70, 19);
+            this.label2.Size = new System.Drawing.Size(61, 13);
             this.label2.TabIndex = 5;
             this.label2.Text = "Password";
             // 
@@ -93,7 +93,7 @@
             this.gunaLineTextBox2.BackColor = System.Drawing.SystemColors.Control;
             this.gunaLineTextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.gunaLineTextBox2.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(27)))), ((int)(((byte)(35)))));
-            this.gunaLineTextBox2.Font = new System.Drawing.Font("Poppins Medium", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLineTextBox2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLineTextBox2.LineColor = System.Drawing.Color.Gainsboro;
             this.gunaLineTextBox2.Location = new System.Drawing.Point(60, 283);
             this.gunaLineTextBox2.Name = "gunaLineTextBox2";
@@ -110,7 +110,7 @@
             this.guna2Button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.guna2Button1.CustomImages.Parent = this.guna2Button1;
             this.guna2Button1.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(229)))), ((int)(((byte)(27)))), ((int)(((byte)(35)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Poppins", 12.25F);
+            this.guna2Button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12.25F);
             this.guna2Button1.ForeColor = System.Drawing.Color.White;
             this.guna2Button1.HoverState.Parent = this.guna2Button1;
             this.guna2Button1.Location = new System.Drawing.Point(114, 392);
@@ -124,11 +124,11 @@
             // gunaLinkLabel1
             // 
             this.gunaLinkLabel1.AutoSize = true;
-            this.gunaLinkLabel1.Font = new System.Drawing.Font("Poppins", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaLinkLabel1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.gunaLinkLabel1.LinkColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             this.gunaLinkLabel1.Location = new System.Drawing.Point(194, 334);
             this.gunaLinkLabel1.Name = "gunaLinkLabel1";
-            this.gunaLinkLabel1.Size = new System.Drawing.Size(104, 22);
+            this.gunaLinkLabel1.Size = new System.Drawing.Size(95, 15);
             this.gunaLinkLabel1.TabIndex = 8;
             this.gunaLinkLabel1.TabStop = true;
             this.gunaLinkLabel1.Text = "Forgot Passwod";
@@ -149,7 +149,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Login";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Form1";
+            this.Text = "Login";
             this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gunaCirclePictureBox1)).EndInit();
             this.ResumeLayout(false);

@@ -5,11 +5,11 @@
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
       <Diagram DiagramId="6e392bc11db24064b90ef1c8441da54e" Name="Diagram1">
-        <EntityTypeShape EntityType="autoEcoleModel1.Paiement" Width="1.5" PointX="3" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="autoEcoleModel1.Paiement" Width="1.5" PointX="7.625" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="autoEcoleModel1.Participan_typePermi" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
-        <EntityTypeShape EntityType="autoEcoleModel1.Participant" Width="1.5" PointX="0.75" PointY="3.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="autoEcoleModel1.Participant" Width="1.5" PointX="5.375" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="autoEcoleModel1.typePermi" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
-        <EntityTypeShape EntityType="autoEcoleModel1.user" Width="1.5" PointX="5.75" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="autoEcoleModel1.user" Width="1.5" PointX="0.75" PointY="2.5" IsExpanded="true" />
         <AssociationConnector Association="autoEcoleModel1.FK__Paiement__numP__2D27B809" ManuallyRouted="false" />
         <AssociationConnector Association="autoEcoleModel1.FK__Participa__parti__2A4B4B5E" ManuallyRouted="false" />
         <AssociationConnector Association="autoEcoleModel1.FK__Participa__typeP__29572725" ManuallyRouted="false" />
