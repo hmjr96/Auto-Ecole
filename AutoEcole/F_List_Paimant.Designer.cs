@@ -35,7 +35,7 @@
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
             this.guna2DateTimePicker2 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
-            this.gunaAdvenceButton2 = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.BtnAdd = new Guna.UI.WinForms.GunaAdvenceButton();
             this.dgv_paiement = new Guna.UI2.WinForms.Guna2DataGridView();
             this.gunaLabel10 = new Guna.UI.WinForms.GunaLabel();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
@@ -44,7 +44,7 @@
             this.gunaSeparator1 = new Guna.UI.WinForms.GunaSeparator();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.Column1 = new System.Windows.Forms.DataGridViewImageColumn();
+            this.update = new System.Windows.Forms.DataGridViewImageColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_paiement)).BeginInit();
             this.SuspendLayout();
             // 
@@ -91,37 +91,38 @@
             this.guna2DateTimePicker1.TabIndex = 42;
             this.guna2DateTimePicker1.Value = new System.DateTime(2022, 2, 7, 20, 59, 16, 801);
             // 
-            // gunaAdvenceButton2
+            // BtnAdd
             // 
-            this.gunaAdvenceButton2.AnimationHoverSpeed = 0.07F;
-            this.gunaAdvenceButton2.AnimationSpeed = 0.03F;
-            this.gunaAdvenceButton2.BackColor = System.Drawing.Color.Transparent;
-            this.gunaAdvenceButton2.BaseColor = System.Drawing.Color.LimeGreen;
-            this.gunaAdvenceButton2.BorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton2.CheckedBaseColor = System.Drawing.Color.Gray;
-            this.gunaAdvenceButton2.CheckedBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton2.CheckedForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton2.CheckedImage = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton2.CheckedImage")));
-            this.gunaAdvenceButton2.CheckedLineColor = System.Drawing.Color.DimGray;
-            this.gunaAdvenceButton2.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaAdvenceButton2.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaAdvenceButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaAdvenceButton2.ForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton2.Image = ((System.Drawing.Image)(resources.GetObject("gunaAdvenceButton2.Image")));
-            this.gunaAdvenceButton2.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaAdvenceButton2.LineColor = System.Drawing.Color.LimeGreen;
-            this.gunaAdvenceButton2.Location = new System.Drawing.Point(682, 40);
-            this.gunaAdvenceButton2.Name = "gunaAdvenceButton2";
-            this.gunaAdvenceButton2.OnHoverBaseColor = System.Drawing.Color.ForestGreen;
-            this.gunaAdvenceButton2.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton2.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaAdvenceButton2.OnHoverImage = null;
-            this.gunaAdvenceButton2.OnHoverLineColor = System.Drawing.Color.ForestGreen;
-            this.gunaAdvenceButton2.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaAdvenceButton2.Radius = 12;
-            this.gunaAdvenceButton2.Size = new System.Drawing.Size(87, 42);
-            this.gunaAdvenceButton2.TabIndex = 41;
-            this.gunaAdvenceButton2.Text = "ADD";
+            this.BtnAdd.AnimationHoverSpeed = 0.07F;
+            this.BtnAdd.AnimationSpeed = 0.03F;
+            this.BtnAdd.BackColor = System.Drawing.Color.Transparent;
+            this.BtnAdd.BaseColor = System.Drawing.Color.LimeGreen;
+            this.BtnAdd.BorderColor = System.Drawing.Color.Black;
+            this.BtnAdd.CheckedBaseColor = System.Drawing.Color.Gray;
+            this.BtnAdd.CheckedBorderColor = System.Drawing.Color.Black;
+            this.BtnAdd.CheckedForeColor = System.Drawing.Color.White;
+            this.BtnAdd.CheckedImage = ((System.Drawing.Image)(resources.GetObject("BtnAdd.CheckedImage")));
+            this.BtnAdd.CheckedLineColor = System.Drawing.Color.DimGray;
+            this.BtnAdd.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.BtnAdd.FocusedColor = System.Drawing.Color.Empty;
+            this.BtnAdd.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.BtnAdd.ForeColor = System.Drawing.Color.White;
+            this.BtnAdd.Image = ((System.Drawing.Image)(resources.GetObject("BtnAdd.Image")));
+            this.BtnAdd.ImageSize = new System.Drawing.Size(20, 20);
+            this.BtnAdd.LineColor = System.Drawing.Color.LimeGreen;
+            this.BtnAdd.Location = new System.Drawing.Point(682, 40);
+            this.BtnAdd.Name = "BtnAdd";
+            this.BtnAdd.OnHoverBaseColor = System.Drawing.Color.ForestGreen;
+            this.BtnAdd.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.BtnAdd.OnHoverForeColor = System.Drawing.Color.White;
+            this.BtnAdd.OnHoverImage = null;
+            this.BtnAdd.OnHoverLineColor = System.Drawing.Color.ForestGreen;
+            this.BtnAdd.OnPressedColor = System.Drawing.Color.Black;
+            this.BtnAdd.Radius = 12;
+            this.BtnAdd.Size = new System.Drawing.Size(87, 42);
+            this.BtnAdd.TabIndex = 41;
+            this.BtnAdd.Text = "ADD";
+            this.BtnAdd.Click += new System.EventHandler(this.BtnAdd_Click);
             // 
             // dgv_paiement
             // 
@@ -142,7 +143,7 @@
             this.dgv_paiement.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.dgv_paiement.ColumnHeadersHeight = 30;
             this.dgv_paiement.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1});
+            this.update});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -275,10 +276,10 @@
             this.guna2TextBox1.Size = new System.Drawing.Size(277, 36);
             this.guna2TextBox1.TabIndex = 34;
             // 
-            // Column1
+            // update
             // 
-            this.Column1.HeaderText = "";
-            this.Column1.Name = "Column1";
+            this.update.HeaderText = "";
+            this.update.Name = "update";
             // 
             // F_List_Paimant
             // 
@@ -288,7 +289,7 @@
             this.Controls.Add(this.gunaLabel2);
             this.Controls.Add(this.guna2DateTimePicker2);
             this.Controls.Add(this.guna2DateTimePicker1);
-            this.Controls.Add(this.gunaAdvenceButton2);
+            this.Controls.Add(this.BtnAdd);
             this.Controls.Add(this.dgv_paiement);
             this.Controls.Add(this.gunaLabel10);
             this.Controls.Add(this.guna2Button2);
@@ -312,7 +313,7 @@
         private Guna.UI.WinForms.GunaLabel gunaLabel2;
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker2;
         private Guna.UI2.WinForms.Guna2DateTimePicker guna2DateTimePicker1;
-        private Guna.UI.WinForms.GunaAdvenceButton gunaAdvenceButton2;
+        private Guna.UI.WinForms.GunaAdvenceButton BtnAdd;
         private Guna.UI2.WinForms.Guna2DataGridView dgv_paiement;
         private Guna.UI.WinForms.GunaLabel gunaLabel10;
         private Guna.UI2.WinForms.Guna2Button guna2Button2;
@@ -321,6 +322,6 @@
         private Guna.UI.WinForms.GunaSeparator gunaSeparator1;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
         private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
-        private System.Windows.Forms.DataGridViewImageColumn Column1;
+        private System.Windows.Forms.DataGridViewImageColumn update;
     }
 }

@@ -38,5 +38,12 @@ namespace AutoEcole
         {
             Frm_load();
         }
+
+        private void BtnAdd_Click(object sender, EventArgs e)
+        {
+            AM_paiment frm = new AM_paiment();
+            frm.name_button = "Ajouter";
+            frm.Show();
+        }
     }
 }
