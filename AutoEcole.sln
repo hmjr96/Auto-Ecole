@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.1738
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoEcole", "AutoEcole\AutoEcole.csproj", "{03CD9828-7F96-4F8D-92AA-8B9FED1C7FF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "test", "..\..\test\test\test.csproj", "{A5ABCD72-CAED-49AA-9F85-CD1D80B8DE06}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +17,15 @@ Global
 		{03CD9828-7F96-4F8D-92AA-8B9FED1C7FF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03CD9828-7F96-4F8D-92AA-8B9FED1C7FF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{03CD9828-7F96-4F8D-92AA-8B9FED1C7FF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5ABCD72-CAED-49AA-9F85-CD1D80B8DE06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5ABCD72-CAED-49AA-9F85-CD1D80B8DE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5ABCD72-CAED-49AA-9F85-CD1D80B8DE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5ABCD72-CAED-49AA-9F85-CD1D80B8DE06}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CAC04E50-BAF0-4096-89C0-DBFF003F186F}
+		SolutionGuid = {34A2080C-BC5F-418E-A1EF-D2F5FAEB4CD9}
 	EndGlobalSection
 EndGlobal

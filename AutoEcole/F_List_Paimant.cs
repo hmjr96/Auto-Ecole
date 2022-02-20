@@ -45,5 +45,18 @@ namespace AutoEcole
             frm.name_button = "Ajouter";
             frm.Show();
         }
+
+        private void dgv_paiement_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.ColumnIndex == 0)
+            {
+                AM_paiment frm = new AM_paiment
+                {
+                    name_button = "Modiffier",
+                    numBon = (int)dgv_paiement.Rows[e.RowIndex].Cells["Bon"].Value
+                };
+                frm.Show();
+            }
+        }
     }
 }

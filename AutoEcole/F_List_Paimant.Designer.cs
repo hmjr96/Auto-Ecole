@@ -37,6 +37,7 @@
             this.guna2DateTimePicker1 = new Guna.UI2.WinForms.Guna2DateTimePicker();
             this.BtnAdd = new Guna.UI.WinForms.GunaAdvenceButton();
             this.dgv_paiement = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.update = new System.Windows.Forms.DataGridViewImageColumn();
             this.gunaLabel10 = new Guna.UI.WinForms.GunaLabel();
             this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
@@ -44,7 +45,6 @@
             this.gunaSeparator1 = new Guna.UI.WinForms.GunaSeparator();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.update = new System.Windows.Forms.DataGridViewImageColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dgv_paiement)).BeginInit();
             this.SuspendLayout();
             // 
@@ -182,6 +182,12 @@
             this.dgv_paiement.ThemeStyle.RowsStyle.Height = 22;
             this.dgv_paiement.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.dgv_paiement.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.dgv_paiement.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgv_paiement_CellContentClick);
+            // 
+            // update
+            // 
+            this.update.HeaderText = "";
+            this.update.Name = "update";
             // 
             // gunaLabel10
             // 
@@ -275,11 +281,6 @@
             this.guna2TextBox1.ShadowDecoration.Parent = this.guna2TextBox1;
             this.guna2TextBox1.Size = new System.Drawing.Size(277, 36);
             this.guna2TextBox1.TabIndex = 34;
-            // 
-            // update
-            // 
-            this.update.HeaderText = "";
-            this.update.Name = "update";
             // 
             // F_List_Paimant
             // 
